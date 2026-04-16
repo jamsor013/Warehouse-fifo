@@ -1,0 +1,14 @@
+import './globals.css'
+
+export const metadata = {
+  title: 'Warehouse FIFO System',
+  description: 'Aplikasi gudang FIFO',
+}
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="id">
+      <body className="bg-[#1C1C1E]">{children}</body>
+    </html>
+  )
+}
